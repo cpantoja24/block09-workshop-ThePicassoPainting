@@ -6,30 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Picasso Painting</title>
     <link rel="stylesheet" href="thePicassoPainting.css">
+
 </head>
 
 <body>
-    <section>
+    <section class="artworkSection">
+        <div class="gridContainer">
+            <div id="pic1"></div>
+            <div id="pic2"></div>
+            <div id="pic3"></div>
+        </div>
+
+        <div id="pic4"></div>
+
+        <div class="triangle1"></div>
+
+        <div class="triangle2"></div>
+
+        <div class="circle1"></div>
 
     </section>
 
-    <section>
-    
-        <p>If you are interested in purchasing a digital copy of the work above, please submit the form below</p>
-   
-        <form>
+    <br />
+
+    <section id="formSection">
+        <!-- Include a form for visitors to enter their name and email if they would like to purschase a copy of the artwork -->
+        <p>If you are interested in purchasing a digital copy of the work above, please fill out and submit the form below</p>
+
+        <form action="file:///Users/Cheyenne/Desktop/Coursework/block09-workshop-ThePicassoPainting/submitFormPage.html"
+            target="_blank" method="post">
             <label for="firstname">First Name</label>
-            <input type="text" name="firstname" placeholder="first name" /><br/>
-            
+            <input type="text" name="firstname" placeholder="first name" /><br />
+
             <label for="lastname">Last Name</label>
-            <input type="text" name="lastname" placeholder="last name" /><br/>
-            
+            <input type="text" name="lastname" placeholder="last name" /><br />
+
             <label for="email">Email</label>
             <input type="email" name="email" placeholder="email" /><br />
 
-            <input type="submit" value="Submit Form" />
+            <input type="submit" value="Submit Form">
+
         </form>
+
+
     </section>
+
+    <br />
+
 </body>
 
 </html>
