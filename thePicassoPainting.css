@@ -5,6 +5,16 @@
 
 .artworkSection {
     display: grid;
+    /* fr (fractional unit) is the siz of the rows or columns*/
+
+    /* Sets how many and the size of the grid columns*/
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* Sets how many and the size of the grid columns */
+    /* grid-template-rows: 1fr 3fr 15px; */
+    /* Sets the spacing between columns */
+    /* column-gap: 1em; */
+    /* Set the spacing between rows */
+    /* row-gap: 1em; */
     background-color: beige;
     border: 3px solid;
     width: 500px;
@@ -57,12 +67,6 @@
     top: 63px;
     left: 250px;
     z-index: 1;
-}
-
-#sun {
-    height: 100px;
-    position: absolute;
-    z-index: 3;
 }
 
 .circle1 {
